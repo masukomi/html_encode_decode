@@ -11,8 +11,7 @@ CONTENTS                                                   *html_encode_decode*
 1. Intro                                             *html_encode_decode-intro*
 
 This plugin allows you to easily encode or decode HTML entities in Vim.
-and introduces two functions: HTMLEncode and HTMLDecode and their associated
-aliases hencode, & hdecode
+and introduces two functions: HTMLEncode and HTMLDecode 
 
 2. Requirements                               *html_encode_decode-requirements*
 
@@ -20,7 +19,9 @@ Requires Vim to be compiled with Ruby support
 
 3. Usage                                             *html_encode_decode-usage*
 
-html_encode_decode introduces two new aliases "hencode" and "hdecode"
+It is recommended that you add "hencode" as an alias for HTMLEncode() 
+and "hdecode" as an alias for the HTMLDecode() function. See the README at
+https://github.com/masukomi/html_encode_decode for instructions.
 
 It works on the selected text, or the entire file if nothing is selected. 
 

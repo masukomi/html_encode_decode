@@ -6,7 +6,7 @@ ruby << EOF
   VIM::Buffer.current.line=CGI.escapeHTML(@str)
 EOF
 endfunction
-:cabbr hencode :call HTMLEncode()
+" :cabbr hencode :call HTMLEncode()
 
 function! HTMLDecode()
 ruby << EOF
@@ -15,4 +15,4 @@ ruby << EOF
   VIM::Buffer.current.line=CGI.unescapeHTML(@str)
 EOF
 endfunction
-:cabbr hdecode :call HTMLDecode()
+" :cabbr hdecode :call HTMLDecode()
